@@ -60,7 +60,7 @@ npx prisma migrate dev --name init
 npx prisma studio
 ```
 
-5️⃣ Start the Development Server
+### 5️⃣ Start the Development Server
 
 ```bash
 npm run dev
@@ -96,3 +96,7 @@ npm run dev
 
 Contributions, issues and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
+
+## 📜 License
+
+This project is licensed under the MIT License.
