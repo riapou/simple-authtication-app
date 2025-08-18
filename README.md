@@ -17,7 +17,7 @@ It supports:
 
 ## 🚀 Live Demo
 
-### [👉 View the demo on Vercel] (<https://simple-authtication-app-1dw6.vercel.app/>)
+[👉 View the demo on Vercel] (<https://simple-authtication-app-1dw6.vercel.app/>)
 
 ## 🚀 Features
 
