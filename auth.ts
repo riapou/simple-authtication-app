@@ -1,3 +1,5 @@
+export const runtime = 'nodejs'
+
 import NextAuth from 'next-auth'
 import { PrismaAdapter } from '@auth/prisma-adapter'
 import { prisma } from '@/lib/prisma'
@@ -5,7 +7,6 @@ import Credentials from 'next-auth/providers/credentials'
 import { compare } from 'bcryptjs'
 import GitHub from 'next-auth/providers/github'
 
-export const runtime = 'nodejs'
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
